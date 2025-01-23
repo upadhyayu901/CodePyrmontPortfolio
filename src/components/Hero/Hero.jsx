@@ -7,7 +7,7 @@ const Hero = () => {
     <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Utkarsh</h1>
     <p className={styles.description}>I'm a Software Engineer with a knack for Front-End Development</p>
-    <a href="mailto: upadhyayu901@gmail.com" className={styles.contactBtn}>Contact Me</a>
+    <a href="https://www.linkedin.com/in/utkarsh-upadhyay1/" className={styles.contactBtn}>Contact Me</a>
   </div>
   <img src={heroImg} alt="Hero Image of me" className={styles.heroImg}/>
     <div className={styles.topBlur}/>
