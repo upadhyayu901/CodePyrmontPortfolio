@@ -1,7 +1,7 @@
 [
     {
         "title": "BackRoads Tours",
-        "imageSrc": "projects/backRoadsApp.png",
+        "imageSrc": "/projects/backroads.png",
         "description": "Backroads is a travel-focused web application designed to showcase unique destinations and activities. The website provides a clean, responsive interface for users to explore curated travel experiences, view detailed itineraries, and plan their adventures seamlessly. Built with React.js, the platform prioritizes user experience and efficient navigation",
         "skills": ["HTML", "CSS", "React.js"],
         "demo": "https://codepyrmontproject2.netlify.app/",

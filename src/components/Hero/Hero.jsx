@@ -1,7 +1,6 @@
-import React from 'react'
-import { getImageUrl } from '../../utils'
-
+import React from 'react';
 import styles from "./Hero.module.css";
+import heroImg from "../../../assets/hero/UtkarshHeroImg.png";
 
 const Hero = () => {
   return <section className={styles.container}>
@@ -10,7 +9,7 @@ const Hero = () => {
     <p className={styles.description}>I'm a Software Engineer with a knack for Front-End Development</p>
     <a href="mailto: upadhyayu901@gmail.com" className={styles.contactBtn}>Contact Me</a>
   </div>
-  <img src={getImageUrl("/hero/UtkarshHero.png")} alt="Hero Image of me" className={styles.heroImg}/>
+  <img src={heroImg} alt="Hero Image of me" className={styles.heroImg}/>
     <div className={styles.topBlur}/>
     <div className={styles.bottomBlur}/>
   </section>
